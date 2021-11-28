@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main()
+{
+	double x,y,o;
+	printf("enter the two values :");
+	scanf("%lf%lf",&x,&y);
+	
+	//value of x is assigned to o
+	o = x;
+	
+	//value of y is assigned to x
+	x = y;
+	
+	//value of o (inital value of x) is assigned to y
+	y = o;
+	
+	// %.2lf
+	printf("\nafter swapping, x= %.2lf",x);
+    printf("\nafter swapping, y= %.2lf",y);
+    return 0;
+}
