@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+char lower,upper;
+printf("type a lowercase character");
+scanf("%c",&lower);
+if(lower>= 'a' && lower<= 'z')
+//a to z=97 to 122 & A to Z=65 to 90//
+upper=('A'+ lower -'a');
+else
+upper=lower;
+printf("the uppercase character :%c",upper);
+return 0;
+}
