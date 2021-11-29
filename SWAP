@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+	int a=20,b=30,c=0;
+	printf("before swapping the values of a and b are %d",a,b);
+    c=a;
+    a=b;
+    b=c;
+	printf("after swapping the values of a and b are %d",a,b);
+	return 0;
+}
